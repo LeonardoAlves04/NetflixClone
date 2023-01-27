@@ -8,8 +8,8 @@ const categories = [
         isLarge: true,
     },
     {
-        name: "Netflix originals",
-        title: "Originais Neflix",
+        name: "Netflix Originals",
+        title: "Originais Netflix",
         path: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
         isLarge: false,
     },

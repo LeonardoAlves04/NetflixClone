@@ -30,6 +30,7 @@ function Row({ title, path, isLarge }) {
                         key={movie.id}
                         src={`${imageHost}${isLarge ? movie.backdrop_path : movie.poster_path}`}
                         alt={movie.name}
+                        title={movie.name}
                     />)
                 })}
             </div>
