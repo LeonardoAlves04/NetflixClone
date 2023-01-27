@@ -3,7 +3,7 @@ const API_KEY = "5aec72ce817dbb6ea64f59a610877e3f";
 const categories = [
     {
         name: "trending",
-        title: "em alta",
+        title: "Em alta",
         path: `/trending/all/week?api_key=${API_KEY}&language=pt-BR`
     },
     {
@@ -24,7 +24,7 @@ const categories = [
     {
         name: "Romance",
         title: "Romance",
-        path: `/discover/tv?api_key=${API_KEY}&with_genres=1074`
+        path: `/discover/tv?api_key=${API_KEY}&with_genres=10749`
     },
     {
         name: "Romance",
