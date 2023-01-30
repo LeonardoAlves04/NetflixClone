@@ -34,7 +34,7 @@ function Row({ title, path, isLarge }) {
                     />)
                 })}
             </div>
-        </div>
+        </div >
     )
 }
 

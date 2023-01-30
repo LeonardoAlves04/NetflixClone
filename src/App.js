@@ -5,6 +5,7 @@ import Banner from './components/Banner';
 
 function App() {
   return (<div className="App">
+    <Nav />
     <Banner />
 
     {categories.map((category) => {
